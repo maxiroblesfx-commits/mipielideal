@@ -1,5 +1,5 @@
 /* =================================================================
-   Estética Tu Look — interacciones
+   MiPielIdeal — interacciones
    Vanilla JS, sin dependencias.
    ================================================================= */
 (function () {
@@ -8,7 +8,7 @@
   /* ---- CONFIG: reemplazar por datos reales antes de publicar ---- */
   var CONFIG = {
     whatsapp: "5490000000000",           // <-- número real (formato internacional, sin + ni espacios)
-    businessName: "Estética Tu Look"
+    businessName: "MiPielIdeal"
   };
 
   var $ = function (s, ctx) { return (ctx || document).querySelector(s); };
@@ -188,7 +188,7 @@
 
   // Base de conocimiento simple: cada entrada tiene palabras clave + respuesta.
   var KB = [
-    { k: ["hola","buenas","buenos dias","buenas tardes","hey"], a: "¡Hola! Soy Lía, tu asesora virtual de Estética Tu Look ✨ ¿En qué puedo ayudarte? Puedo contarte sobre tratamientos, precios, depilación láser, membresías o turnos." },
+    { k: ["hola","buenas","buenos dias","buenas tardes","hey"], a: "¡Hola! Soy Lía, tu asesora virtual de MiPielIdeal ✨ ¿En qué puedo ayudarte? Puedo contarte sobre tratamientos, precios, depilación láser, membresías o turnos." },
     { k: ["facial","cara","rostro","piel","limpieza","peeling","arruga","mancha"], a: "En faciales tenemos limpieza profunda, Hydrafacial, radiofrecuencia, peeling y microneedling. Trabajan luminosidad, firmeza, manchas y textura. La <a href='#tratamientos'>carta de faciales</a> tiene el detalle. ¿Querés que te agende una valoración gratuita?" },
     { k: ["corporal","cuerpo","celulitis","grasa","reducir","modelar","drenaje","flacidez"], a: "En corporales hacemos drenaje linfático, criolipólisis, radiofrecuencia, maderoterapia y mesoterapia reductora. Ideales para modelar, reducir y reafirmar. ¿Sobre qué zona querés trabajar?" },
     { k: ["laser","láser","rejuvenecimiento","rosacea","carbon"], a: "Nuestro láser médico trata rejuvenecimiento, manchas/melasma, rosácea y el famoso Carbon Peel Hollywood. Seguro y con resultados desde las primeras sesiones. ¿Te gustaría reservar?" },
@@ -274,7 +274,7 @@
       typing();
       setTimeout(function () {
         var t = $(".chat-typing", chatBody); if (t) t.remove();
-        addMsg("¡Hola! Soy <b>Lía</b>, tu asesora de Estética Tu Look ✨<br>¿En qué puedo ayudarte hoy?", "bot");
+        addMsg("¡Hola! Soy <b>Lía</b>, tu asesora de MiPielIdeal ✨<br>¿En qué puedo ayudarte hoy?", "bot");
         buildQuick();
       }, 700);
     }

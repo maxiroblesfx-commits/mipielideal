@@ -1,4 +1,4 @@
-# Estética Tu Look — Sitio web premium
+# MiPielIdeal — Sitio web premium
 
 Landing de una sola página para un **centro de estética y medicina estética** de alta
 gama. Diseño minimalista, elegante y premium, inspirado en clínicas de lujo.
@@ -32,7 +32,7 @@ Buscá y cambiá estos datos de ejemplo por los reales:
 | `js/main.js` → `CONFIG.whatsapp` | Número de WhatsApp real (formato `549XXXXXXXXXX`, sin `+` ni espacios) |
 | `index.html` → JSON-LD `BeautySalon` | `telephone`, `address`, `addressLocality`, `aggregateRating` |
 | `index.html` → footer `#footWa` y dirección | WhatsApp visible, dirección, horarios |
-| `index.html` → `<meta>` og/canonical | Dominio real (reemplazar `esteticatulook.com`) |
+| `index.html` → `<meta>` og/canonical | Dominio real (reemplazar `mipielideal.com`) |
 | `index.html` → redes sociales (footer) | Links de Instagram / Facebook / TikTok |
 | **Precios** del menú de tratamientos | Ajustar a la lista real del centro |
 | **Galería antes/después** | Reemplazar imágenes de muestra por casos reales **con consentimiento firmado** |

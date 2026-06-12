@@ -2,9 +2,9 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "estetica",
+      "name": "mipielideal",
       "runtimeExecutable": "npx",
-      "runtimeArgs": ["-y", "serve", "-l", "5599", "C:/Users/Flia.Robles/Desktop/EsteticaTuLook"],
+      "runtimeArgs": ["-y", "serve", "-l", "5599", "C:/Users/Flia.Robles/Desktop/MiPielIdeal"],
       "port": 5599
     }
   ]
