@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "estetica",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["-y", "serve", "-l", "5599", "C:/Users/Flia.Robles/Desktop/EsteticaTuLook"],
+      "port": 5599
+    }
+  ]
+}
